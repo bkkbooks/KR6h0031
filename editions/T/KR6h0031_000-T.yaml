@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6h0031/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大集譬喻王經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T13/T13n0422.xml
+    old_id: T13n0422
+hash: sha256:5679035b34c066d7556dcafa06035e1701b0fae0d1e2e23520ef3f74db378ef3

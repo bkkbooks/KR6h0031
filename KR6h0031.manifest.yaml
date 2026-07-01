@@ -1,0 +1,66 @@
+canonical_identifier: bkk:krp/KR6h0031/v1
+canonical_location: https://kanripo.org/bkk/KR6h0031/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大集譬喻王經
+  identifiers:
+    alt_id:
+    - T13n0422
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T13/T13n0422.xml
+    old_id: T13n0422
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6h0031_000.yaml, hash: 'sha256:5679035b34c066d7556dcafa06035e1701b0fae0d1e2e23520ef3f74db378ef3'}
+  - {seq: 1, filename: KR6h0031_001.yaml, hash: 'sha256:858e5a3427ff347140aa42c8613a52813ec01148437a9322b267ac96f7ce4758'}
+  - {seq: 2, filename: KR6h0031_002.yaml, hash: 'sha256:1b4a312c7a505f3eff88963ce35f252db175072a34978aea6833d7c16f80d194'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6h0031_001.markers.yaml, hash: 'sha256:516005b3621e65474e100255d4b9e7c5e060e267e401ff80079a32a9d2202a8e'}
+  - {seq: 2, role: markers, filename: assets/KR6h0031_002.markers.yaml, hash: 'sha256:75d5ed45be0898eabcc4c78f0bd69fff4f501d3fb855e6f56b36bd1026d9c117'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6h0031_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8512
+  label: 大集譬喻王經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6h0031_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7037
+  label: 大集譬喻王經卷下
+  type: juan
+  level: 1
+hash: sha256:63458f46b9ae94f52a9d6ccb0031349ba25ee795e257b03d0004af509718386d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
